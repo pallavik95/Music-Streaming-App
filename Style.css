@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:wheat;
+}
+.nav{
+    height: 5vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+.nav ul{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+.nav ul li{
+    align-items: center;
+}
+.logo{
+    width: 20px;
+}
+.brandicon{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.container{
+   margin: 22px auto;
+    min-height: 75vh;
+    width: 70%;
+    background-image: url('./images/bg.jpeg');
+    /* padding: 0px 5px; */
+    color: white;
+}
+.coverimg{
+    width: 35px;
+    border-radius: 25px;
+    
+}
+.songlist{
+    padding: 20px;
+}
+.songitem{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 40%;
+    border-radius: 20px;
+    color: black;
+    margin: 10px;
+    padding: 0 10px 0 10px;
+}
+.songitemcontainer{
+   margin-top: 30px;
+}
+.songitem span i{
+    cursor: pointer;
+}
+
+/* bottom Section */
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    color: white;
+   /* width: 100%; */
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.icon{
+    margin: 10px;
+    cursor: pointer;
+}
+.songplay{
+    position: absolute;
+    left: 10vw;
+}
+.songplay img{
+    width: 50px;
+    opacity: 0;
+   transition: opasity 0.4s ease-in;
+   
+}
+.fonticons{
+    cursor: pointer;
+}
+#next,#previous{
+cursor: pointer;
+}

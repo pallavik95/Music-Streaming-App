@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d3ccfde9d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- nav-bar -->
+    <div class="nav">
+        <ul>
+            <li class="brandicon"> <img src="./images/logo.png" alt="logo" class="logo"><span class="logoname">Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <!-- main-section -->
+   <div class="container"> 
+     <div class="songlist"> 
+        <h1>Songs List</h1> 
+        <div class="songitemcontainer">
+
+        <div class="songitem"  id="0" >
+            <img src="./cover/1.jpg" alt="1"class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="0" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+        <div class="songitem"  id="2" >
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="1" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+        <div class="songitem" id="3">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="2" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+        <div class="songitem">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="3" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+        <div class="songitem">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="4" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+        <div class="songitem">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="5" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+        <div class="songitem">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="6" class="fa-regular fa-circle-play  playsong"></i></span>
+        </div>
+        <div class="songitem">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="7" class="fa-regular fa-circle-play  playsong"></i></span>
+        </div>
+        <div class="songitem">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="8" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+        <div class="songitem">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="9" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+        <div class="songitem">
+            <img src="./cover/1.jpg" alt="1" class="coverimg"><span class="songname">Tu hai to mujhe phir aur..</span>
+            <span><span>4:54 </span><i id="10" class="fa-regular fa-circle-play playsong"></i></span>
+        </div>
+
+        </div>
+     </div>
+   </div>
+   <!-- bottom-section -->
+   <div class="bottom">
+    <input type="range" id="progressbar" min="0" value="0" max="100">
+
+    <div class="fontawesome">
+        
+        <i class="icon fa-sharp fa-solid fa-play" id="masterplay"></i>
+          
+    </div>
+
+    <div class="songplay">
+        <img src="./icons/playing.gif" alt="playing" id="gif"><span id="mastersongname"> </span>
+    </div>
+   </div>
+   <script src="./Script.js"></script>
+</body>
+</html>
